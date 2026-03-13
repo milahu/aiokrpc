@@ -7,6 +7,9 @@ Kademlia protocol based RPC-server.
 
 ```python
 import asyncio
+# https://github.com/bashkirtsevich-llc/aioudp
+from aioudp import UDPServer
+from aiokrpc import KRPCServer
 
 loop = asyncio.get_event_loop()
 
